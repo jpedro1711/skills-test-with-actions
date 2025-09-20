@@ -18,7 +18,7 @@ jobs:
 
     steps:
     - name: Bring code to the agent
-    - uses: actions/checkout@v4
+      uses: actions/checkout@v4
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v3
       with:
